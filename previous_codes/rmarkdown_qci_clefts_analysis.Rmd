@@ -1,0 +1,311 @@
+---
+title: "QCI of Orofacial Clefts - analysis"
+author: "Ahmad Sofi-Mahmudi"
+date: "2024-03-24"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Loading required packages
+```{r}
+pacman::p_load(dplyr,
+               ggplot2,
+               knitr,
+               tidyr,
+               readstata13,
+               here,
+               gt)
+```
+
+# Loading the dataset
+```{r}
+main_data = read.dta13(here("data", "main_data.dta"))
+iso3 = read.dta13(here("data", "ISO3.dta"))
+```
+
+# Results
+Global Quality of Care (QCI):
+```{r}
+kable(main_data %>% 
+        select(location_name, year, sex_name, pca_score) %>%
+        filter(location_name == "Global",
+                     year == c(1990, 2019)) %>%
+        mutate(across(4, round, 1)))
+```
+
+And its plot:
+```{r}
+main_data %>% 
+        filter(location_name == "Global" & age_name == "Age-standardized") %>%
+        ggplot(aes(year, pca_score, group = sex_name, color = sex_name)) +
+        geom_line(size = 1, alpha = 0.8) +
+        geom_point(size = 2) +
+        scale_color_brewer(name = "Sex", palette = "Set1") +
+        xlab("Year") +
+        ylab("Quality of Care Index (QCI)")
+
+# dev.copy(tiff, "figures/Figure1.tiff", width = 20, height = 10, units = "cm", res = 300, compression = "lzw")
+# dev.off()
+```
+
+
+Top countries:
+```{r}
+kable(head(main_data %>%
+        filter(year == 2019 & sex_name == "Both") %>%
+        select(location_name, pca_score)  %>%
+        arrange(desc(pca_score)) %>%
+        mutate(across(2, round, 1))
+     ))
+```
+
+Countries with the least QCI:
+```{r}
+kable(tail(main_data %>%
+        filter(year == 2019 & sex_name == "Both") %>%
+        select(location_name, pca_score)  %>%
+        arrange(desc(pca_score)) %>%
+        mutate(across(2, round, 1))
+     ))
+```
+
+Trend of change in QCI:
+```{r}
+qci_trend = merge(main_data, iso3, by = "location_id") %>%
+        select(location_name.y, year, sex_name, pca_score, type, iso3_countries) %>%
+        filter(year %in% c(1990, 2019)) %>%
+        distinct() %>%
+        spread(year, pca_score) %>%
+        mutate(year_ratio = `2019`/`1990`, 
+               compare = ifelse(`2019` > `1990`, "higher", "lower")) %>%
+        mutate(year_ratio_cat = ifelse(year_ratio < 0.95, "lower",
+                                       ifelse(year_ratio > 1.05, "higher", "equal")))
+```
+
+
+Countries in which the QCI has decreased:
+
+```{r}
+kable(qci_trend %>% 
+        filter(sex_name == "Both" & type == "Country" & compare == "lower"))
+```
+
+
+```{r}
+qci_trend$type2 = factor(qci_trend$type, levels = c("Global", "WHO Regions", "World Bank Income Levels", "SDI", "4 World Regions", "World Bank Regions", "Country"))
+
+rows = (seq(nrow(filter(qci_trend, sex_name == "Both")))-1) %/% 37
+
+qci_trend %>% 
+        dplyr::rename(Scale = type2, Location = location_name.y, QCI = `2019`) %>%
+        filter(sex_name == "Both") %>%
+        select(Scale, Location, QCI) %>%
+        arrange(Scale, desc(QCI)) %>%
+        mutate(QCI = round(QCI, 1)) %>%
+        split(rows) %>% 
+        do.call(cbind, .) %>%
+        #dplyr::rename(Scale = c(1, 4, 7, 10, 13), Location = c(2, 5, 8, 11, 14), QCI = c(3, 6, 9, 12, 15))
+        gt() %>%
+          cols_label(
+                  ends_with("QCI") ~ "QCI",
+                  ends_with("Scale") ~ "Scale",
+                  ends_with("Location") ~ "Location") %>%
+        data_color(
+                columns = c(`0.QCI`, `1.QCI`, `2.QCI`, `3.QCI`, `4.QCI`, `5.QCI`),
+                method = "numeric",
+                palette = c("red", "green"),
+                domain = c(59.1, 99.9)) %>%
+        data_color(
+                columns = c(`0.Scale`, `1.Scale`, `2.Scale`, `3.Scale`, `4.Scale`, `5.Scale`),
+                method = "factor",
+                palette = "Set2"
+        ) %>%
+        gtsave("fig.png")
+        
+        
+qci_trend %>% 
+        filter(sex_name == "Both") %>%
+        select(location_name.y, type2, `2019`) %>%
+        arrange(type2, desc(`2019`)) #%>%
+#        group_map(~ qci_table(.x)) %>%
+#        data.frame(.) %>%
+#        gt() %>% 
+#        fmt_markdown(columns = TRUE)
+
+```
+
+
+Computing gender disparity ratio (GDR):
+```{r}
+gdr = merge(main_data, iso3, by = "location_name") %>% 
+        select(location_name, year, sex_name, pca_score, type, iso3_countries) %>%
+        filter(sex_name %in% c("Male", "Female")) %>%
+        distinct() %>%
+        spread(sex_name, pca_score) %>%
+        mutate(gdr = Female/Male) %>%
+        mutate(gdr_cat = ifelse(gdr < 0.95, "low", 
+                                ifelse(gdr > 1.05, "high", "equal"))
+               )
+
+```
+
+
+Comparing GDR categories in 1990 and 2019:
+```{r}
+kable(merge(gdr %>% 
+              filter(year == 1990 & type == "Country") %>% 
+              group_by(gdr_cat) %>% 
+              summarise(n = n()),
+      gdr %>%
+              filter(year == 2019 & type == "Country") %>% 
+              group_by(gdr_cat) %>% 
+              summarise(n = n()), 
+      by = "gdr_cat") %>% setNames(c("gdr_cat", "1990", "2019")))
+```
+
+Comparing SDI world regions in terms of equal GDR:
+```{r}
+kable(merge(gdr %>% 
+              filter(year == 1990 & type == "SDI") %>% 
+              group_by(location_name) %>% 
+              summarise(equal = ifelse(gdr_cat == "equal", TRUE, FALSE)),
+      gdr %>%
+              filter(year == 2019 & type == "SDI") %>% 
+              group_by(location_name) %>% 
+              summarise(equal = ifelse(gdr_cat == "equal", TRUE, FALSE)), 
+      by = "location_name") %>% setNames(c("location_name", "1990", "2019")))
+```
+
+
+Comparing World Bank Income Levels in terms of equal GDR:
+```{r}
+kable(merge(gdr %>% 
+              filter(year == 1990 & type == "World Bank Income Levels") %>% 
+              group_by(location_name) %>% 
+              summarise(equal = ifelse(gdr_cat == "equal", TRUE, FALSE)),
+      gdr %>%
+              filter(year == 2019 & type == "World Bank Income Levels") %>% 
+              group_by(location_name) %>% 
+              summarise(equal = ifelse(gdr_cat == "equal", TRUE, FALSE)), 
+      by = "location_name") %>% setNames(c("location_name", "1990", "2019")))
+```
+
+
+# Loading required packages
+
+```{r}
+pacman::p_load(clipr,
+               tidyr, 
+               dplyr, 
+               readstata13,
+               data.table,
+               FactoMineR,
+               foreign,
+               RColorBrewer,
+               rgdal,
+               ggplot2,
+               readxl,
+               randomcoloR,
+               viridis,
+               ineq,
+               sp,
+               LSD,
+               reshape,
+               ff,
+               ffbase)
+```
+
+
+The datasets are now created. Next, we w
+Map
+```{r}
+#install.packages(c("cowplot", "googleway", "ggplot2", "ggrepel", 
+#                   "ggspatial", "libwgeom", "sf", "rnaturalearth", #"rnaturalearthdata", "rgeos", "haven", "readstata13", "dplyr"))
+                 
+library("haven")
+library("readstata13")
+library("dplyr")
+library("tidyr")
+library("ggplot2")
+theme_set(theme_bw())
+library("sf")
+library("rnaturalearth")
+library("rnaturalearthdata")
+library("rgeos")
+
+map_data = merge(main_data, iso3, by = 'location_id')
+map_data$Location = map_data$location_name
+map_data$QCI = map_data$pca
+map_data$iso = map_data$iso3_countries
+data2 = filter(map_data, year %in% c(1990, 2019), sex_name == 'Both', age_name == "Age-standardized", type %in% c("Country"))
+
+
+quantile_values = quantile(data2$QCI, probs = seq(0, 1, 1/5))
+data2$quantile = cut(data2$QCI, breaks = quantile_values, include.lowest = TRUE)
+
+world = ne_countries(scale = "medium", returnclass = "sf")
+world$iso = world$iso_a3
+world = merge(world, data2, by = 'iso')
+
+
+ggplot(data = world) +
+        geom_sf(aes(fill = quantile)) +
+        scale_fill_manual(values = c("#a40227", "#f56c42", "#dfbf72", "#a7da68", "#1a9850"), name = "Age-standardized QCI (%)") +
+        theme_void() +
+        facet_wrap(~ year, ncol = 1) +
+        theme(legend.key.size = unit(0.4, 'cm'))
+
+# dev.copy(tiff, "figures/Figure3.tiff", width = 20, height = 10, units = "cm", res = 300)
+# dev.off()
+
+```
+
+
+GDR
+```{r}
+# install.packages(c("cowplot", "googleway", "ggplot2", "ggrepel", 
+#                   "ggspatial", "libwgeom", "sf", "rnaturalearth", "rnaturalearthdata", "rgeos", "haven", "readstata13", "dplyr"))
+                 
+library("haven")
+library("readstata13")
+library("dplyr")
+library("tidyr")
+library("ggplot2")
+theme_set(theme_bw())
+library("sf")
+library("rnaturalearth")
+library("rnaturalearthdata")
+library("rgeos")
+gdr_data = merge(main_data, iso3, by = 'location_id')
+gdr_data$Location = gdr_data$location_id
+gdr_data$QCI = gdr_data$pca
+gdr_data$iso = gdr_data$iso3_countries
+data2 = filter(gdr_data, year %in% c(1990, 2019), sex_name %in% c('Male', 'Female'), age_name == "Age-standardized", type %in% c("Country"))
+data3 = select(data2, location_id, iso, sex_name, year, QCI)
+data4 = spread(data3, sex_name, QCI)
+data4$GDR = data4$Female/data4$Male
+
+breaks <- c(0, 0.5, 0.95, 1.05, 2.0, Inf)
+labels <- c("< 0.5", "[0.5, 0.95)", "[0.95, 1.05]", "(1.05, 2.0]", "> 2.0")
+data4$quantile <- cut(data4$GDR, breaks = breaks, labels = labels, include.lowest = TRUE)
+
+world = ne_countries(scale = "medium", returnclass = "sf")
+world$iso = world$iso_a3
+world = merge(world, data4, by = 'iso')
+
+ggplot(data = world) +
+        geom_sf(aes(fill = quantile)) +
+        scale_fill_manual(values = c("#878787", "#b7b7b7", "#64c2a5", "#b1abd0", "#7f74ac"), name = "Age-standardized GDR") +
+        theme_void() +
+        facet_wrap(~ year, ncol = 1) +
+        theme(legend.key.size = unit(0.4, 'cm'))
+
+# dev.copy(tiff, "figures/Figure2.tiff", width = 20, height = 10, units = "cm", res = 300)
+
+dev.off()
+data3 = select(data2, Location, QCI)
+                 
+```
+
+

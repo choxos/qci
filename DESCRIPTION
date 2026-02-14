@@ -1,0 +1,46 @@
+Package: qci
+Title: Quality of Care Index from Global Burden of Disease Data
+Version: 0.1.0
+Authors@R: c(
+    person("Ahmad", "Sofi-Mahmudi", email = "ahmad.sofimahmudi@gmail.com",
+           role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2460-2394")),
+    person("Erfan", "Shamsoddin", role = "aut"),
+    person("Marcos Roberto", "Tovani-Palone", role = "aut")
+    )
+Description: Calculates the Quality of Care Index (QCI) from Global Burden
+    of Disease (GBD) study data. QCI is a composite metric derived via
+    Principal Component Analysis from four epidemiological ratios:
+    Mortality-to-Incidence (MIR), YLL-to-YLD, DALY-to-Prevalence, and
+    Prevalence-to-Incidence. Provides a complete pipeline from raw GBD CSV
+    exports to normalized country-level scores, gender disparity analysis,
+    and publication-ready visualizations including choropleth maps.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    data.table (>= 1.14.0),
+    FactoMineR,
+    ggplot2 (>= 3.4.0),
+    dplyr (>= 1.1.0),
+    tidyr,
+    sf,
+    rnaturalearth,
+    rnaturalearthdata,
+    scales,
+    cli,
+    rlang
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    haven,
+    withr,
+    gt
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/choxos/qci
+BugReports: https://github.com/choxos/qci/issues

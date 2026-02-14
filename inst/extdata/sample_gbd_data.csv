@@ -1,0 +1,487 @@
+"measure_id","measure_name","location_id","location_name","sex_id","sex_name","age_id","age_name","cause_id","cause_name","metric_id","metric_name","year","val","upper","lower"
+3,"YLDs (Years Lived with Disability)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.67402883648853,3.94050962919715,1.64071351816423
+3,"YLDs (Years Lived with Disability)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.7790956537733,4.13091980951,1.71596479302453
+3,"YLDs (Years Lived with Disability)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.72335187515878,4.02665893975423,1.69250432597244
+3,"YLDs (Years Lived with Disability)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.61220777811648,5.40982007997183,2.23513087759522
+3,"YLDs (Years Lived with Disability)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.22540684871482,6.2883799437214,2.60952821810545
+3,"YLDs (Years Lived with Disability)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.91011980474683,5.86048548329161,2.41797942978469
+3,"YLDs (Years Lived with Disability)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.93171456927769,2.9511219099672,1.15202265335238
+3,"YLDs (Years Lived with Disability)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.20612201876044,3.38421007349829,1.30615890693431
+3,"YLDs (Years Lived with Disability)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.06822700527209,3.12835462056859,1.22540879681998
+3,"YLDs (Years Lived with Disability)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.72237119934214,2.61632620124056,1.04640912003467
+3,"YLDs (Years Lived with Disability)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.35539040001827,2.06151435090993,0.824664073047855
+3,"YLDs (Years Lived with Disability)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.53651796481028,2.32397923206853,0.945021634100233
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.2009802423168,4.82956952002671,1.97859105913654
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.74373469245139,4.13328621518235,1.68370173154908
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.97265366616084,4.4175496952323,1.85761581482515
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.26625752631675,3.33523868520937,1.39814878109221
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.9489395215227,2.86067398151373,1.20664294191507
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.10667618944103,3.10440226778146,1.30501495208266
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.2133673752115,4.84041826340313,2.01014817407013
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.84635751363055,4.27399709976039,1.75827821156552
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.03414750246299,4.56713573563895,1.88532938124259
+3,"YLDs (Years Lived with Disability)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,6.66164572992033,10.038299583391,3.95196387236231
+3,"YLDs (Years Lived with Disability)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.20695044792847,8.1532791904262,3.22181634295439
+3,"YLDs (Years Lived with Disability)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.94848304266226,8.87546347909449,3.64434617680675
+3,"YLDs (Years Lived with Disability)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,7.31575502014627,10.8323611032863,4.53711324393358
+3,"YLDs (Years Lived with Disability)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,6.39667673482603,9.50594349497126,3.98577554258771
+3,"YLDs (Years Lived with Disability)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,6.87484186605659,10.1593234050515,4.26587212982573
+6,"Incidence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.56723481990039,5.76685602625053,2.25161183737258
+6,"Incidence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.93693320518588,7.83862599402218,3.11479393547979
+6,"Incidence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.23443717366167,6.76267315486648,2.71360718076129
+6,"Incidence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.8264057781754,9.30906365231356,3.60522134030228
+6,"Incidence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.15216549183128,8.276527452618,3.13793627827159
+6,"Incidence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.50167912849197,8.82231368935681,3.37106498665993
+6,"Incidence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.01679275328955,4.44125299354597,2.01824467755661
+6,"Incidence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.09721325350282,4.54837659740879,2.16505559129348
+6,"Incidence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.05454671790809,4.52396921253426,2.09431153518189
+6,"Incidence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.06211219210424,6.37616262229912,2.77116610684278
+6,"Incidence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.0001268400162,8.18059994096023,2.87250011108907
+6,"Incidence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.51887672594295,6.98792355485373,2.89171443343816
+6,"Incidence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.71881417521928,6.0645791492743,2.39150418814146
+6,"Incidence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.32596359275208,5.52801729495222,2.03900944817712
+6,"Incidence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.52730692384673,5.80385819163706,2.22456313781213
+6,"Incidence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.78782773210169,4.24854826780065,1.68037051250558
+6,"Incidence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.52833377391934,3.86791584937657,1.48353506869774
+6,"Incidence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.65991729433016,4.05389650295024,1.578577451057
+6,"Incidence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.71423359079807,5.75321399262511,2.68894802400105
+6,"Incidence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,4.2608089168975,6.56159331445455,3.06727917828903
+6,"Incidence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.98015782582156,6.10987653261255,2.92743580235747
+6,"Incidence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.5370472508581,3.8604543074229,1.611348401336
+6,"Incidence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.02966820463653,3.09912303858576,1.34186926912842
+6,"Incidence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.29131733763257,3.48513164664675,1.4792756308096
+6,"Incidence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.37817645768555,3.51355935785869,1.7295707181019
+6,"Incidence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,1.87608016811898,2.86196455545282,1.31047177783497
+6,"Incidence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.13217670038375,3.20348829931143,1.52441901638773
+5,"Prevalence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,58.3417001426228,71.5637620881529,46.8780499791262
+5,"Prevalence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,68.7195869527448,83.7472362415002,55.5911170975256
+5,"Prevalence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,63.3967708412694,77.4361407081432,51.2929089090017
+5,"Prevalence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,27.4288908388343,33.3846412032484,22.1618431625692
+5,"Prevalence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,21.4293558976592,26.8336070187491,17.0543347813691
+5,"Prevalence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,24.3869536277186,30.0781488236653,19.5542664378367
+5,"Prevalence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,52.4410497341369,65.2970212791649,42.1864492676623
+5,"Prevalence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,45.1875038941001,55.6030597443664,36.4393801632432
+5,"Prevalence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,48.8198649680105,60.1025669018072,39.3342146867864
+5,"Prevalence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,30.300218582646,37.670660492137,24.0202705313532
+5,"Prevalence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,34.5876471024035,43.7476605369159,27.5777427726987
+5,"Prevalence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,32.4332221726683,40.4722262509011,26.0829788439287
+5,"Prevalence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,52.656881438187,65.1542763495434,42.3315985740895
+5,"Prevalence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,46.8553635110732,58.1420044482866,37.8924026056352
+5,"Prevalence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,49.8099964305935,61.5651620897386,40.1040143941569
+5,"Prevalence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,43.0866712951298,53.1713006363411,34.9146494132865
+5,"Prevalence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,44.8907964138059,55.2950432948894,36.6778025082515
+5,"Prevalence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,43.9356000376691,53.8142518430294,35.9672442921517
+5,"Prevalence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,35.7215527737983,43.666359964541,29.4605611776059
+5,"Prevalence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,30.5818232311547,37.1951852957677,25.0116979896858
+5,"Prevalence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,33.1334756896334,40.4145733044363,27.1665653228856
+5,"Prevalence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,107.595228559139,133.756143376563,85.5379763593619
+5,"Prevalence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,84.9347438750638,106.954073236465,67.4506014030472
+5,"Prevalence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,96.4885499089638,118.5362597966,78.0361876852973
+5,"Prevalence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,120.024491522531,148.360786332458,97.2859158407464
+5,"Prevalence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,106.176447523783,130.888664403628,85.5883879455445
+5,"Prevalence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,113.379265190868,140.280941827058,91.9925832759483
+1,"Deaths",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00577742637383367,0.00684311421991653,0.0046409459391806
+1,"Deaths",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00756251680721746,0.00896007847337751,0.00621475071151745
+1,"Deaths",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00664705100888321,0.00754997990647561,0.00573911836300716
+1,"Deaths",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.199532214805124,0.467266283540298,0.0410921573366321
+1,"Deaths",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.149166560540187,0.425832741596179,0.0457776760803006
+1,"Deaths",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.175260694320894,0.346456400196235,0.0634173508975436
+1,"Deaths",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.17560089610958,0.735611722796834,0.0100534221957728
+1,"Deaths",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.22610601230572,1.12879358166536,0.0224235575700798
+1,"Deaths",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.200220900101008,0.683337897724177,0.0222048590655059
+1,"Deaths",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.524128535465055,0.943874788739748,0.224343215711556
+1,"Deaths",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.390426679659886,0.590012042598093,0.237159575086774
+1,"Deaths",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.461292096489677,0.729434144259517,0.272383383090727
+1,"Deaths",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00168399491502275,0.00260099908235816,0.00099760669294866
+1,"Deaths",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00411653689669725,0.00642659605014937,0.00258458735986003
+1,"Deaths",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00286813582996389,0.0040427207182821,0.00201389768171561
+1,"Deaths",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.302281215615576,0.461845966349036,0.153667155804672
+1,"Deaths",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.205351298163129,0.319996253383415,0.0962743158804465
+1,"Deaths",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.254675663147442,0.357828736434923,0.137102511547149
+1,"Deaths",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.0850898450558156,0.363080028800573,0.00679945450880802
+1,"Deaths",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.11649172289208,0.525314800297957,0.0140462742732612
+1,"Deaths",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.100672021217003,0.332512857523457,0.0154372037796087
+1,"Deaths",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00879364853148068,0.0277833255566278,0.00190243311852225
+1,"Deaths",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.121581494554868,0.368540437827656,0.0358245726108648
+1,"Deaths",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.0637704143142287,0.182989913259332,0.0198634475010321
+1,"Deaths",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00464357813540773,0.00629231380174737,0.00358265104022454
+1,"Deaths",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00364248173717174,0.00450121749918329,0.00279819933933128
+1,"Deaths",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.00415552485749903,0.00493502600179838,0.00341879201678667
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,15.5538026984859,65.1685013374426,0.890819591136023
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,20.0202613263521,99.9101978592475,1.98894330133696
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,17.7310665521356,60.4777426789644,1.96792822040346
+4,"YLLs (Years of Life Lost)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.511636504660068,0.606190224460454,0.411282486117182
+4,"YLLs (Years of Life Lost)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.66948546116103,0.793071794084675,0.550303527345744
+4,"YLLs (Years of Life Lost)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.588534091611776,0.668534532240799,0.508151472127352
+4,"YLLs (Years of Life Lost)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,17.6982435174593,41.4804473419563,3.64774659915896
+4,"YLLs (Years of Life Lost)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,13.229579756828,37.735478547271,4.05887915543905
+4,"YLLs (Years of Life Lost)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,15.5447708407232,30.7395078633188,5.62498312512155
+4,"YLLs (Years of Life Lost)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,46.4196404885053,83.5915169599464,19.8726353096726
+4,"YLLs (Years of Life Lost)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,34.5956889163453,52.2913445994147,21.0264937281298
+4,"YLLs (Years of Life Lost)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,40.8627322689927,64.5730530333027,24.1329172852058
+4,"YLLs (Years of Life Lost)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,7.53859528468775,32.1597341216307,0.602824035601184
+4,"YLLs (Years of Life Lost)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,10.316318955827,46.5076060592934,1.24528864093664
+4,"YLLs (Years of Life Lost)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,8.9168594769809,29.4655726352269,1.36869658235553
+4,"YLLs (Years of Life Lost)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.149475231332768,0.230965245857881,0.088533556256481
+4,"YLLs (Years of Life Lost)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.364142842452413,0.569054552966992,0.228805390348922
+4,"YLLs (Years of Life Lost)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.253973193152761,0.356654098456416,0.1782224616921
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.41004906333873,0.555378484563571,0.316383546529004
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.321174892552542,0.396815308312388,0.24655833690641
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.366721269820825,0.435652100056273,0.301102362255657
+4,"YLLs (Years of Life Lost)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,26.7572892822138,40.8715268357509,13.606098361916
+4,"YLLs (Years of Life Lost)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,18.1696787272569,28.3130705340238,8.52213291681707
+4,"YLLs (Years of Life Lost)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,22.5396474780223,31.6642499277008,12.1421539586929
+4,"YLLs (Years of Life Lost)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,0.778749693109862,2.46207154562419,0.168237539210767
+4,"YLLs (Years of Life Lost)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,10.7743383327068,32.6996511798813,3.17448010615467
+4,"YLLs (Years of Life Lost)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,5.65093663165101,16.236862776534,1.75795084184252
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.18566505235349,4.49090162830705,2.16130262362066
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.448580814792,4.77479419191187,2.34541986044648
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,3.31188567264856,4.61869757153785,2.26864971261287
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,25.013997747504,49.6813891362343,9.97338520978308
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,19.6262558008129,44.2660181229378,9.24687209044778
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,22.4196119642969,38.5823736118162,11.7471199938118
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,50.0318478765033,87.5765343561834,23.0674650026328
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,38.8210953087162,56.5850222337247,24.7306794473665
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,44.7728516514465,69.0753461974605,28.2053128401644
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,7.44039470357245,11.2695986049323,4.5833687769991
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,15.9812882182846,38.3260741963546,7.81935455855271
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,11.5994190318771,22.1458191070864,6.63488826836037
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,28.4796602955399,42.4680326806186,15.2595473046136
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,19.525068980893,29.5860343969019,9.88250808859848
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,24.0761652768886,33.0903867324519,13.6628789469924
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.08118959198529,3.15664559266206,1.31546634652064
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.57026462295168,3.74831705886159,1.65085594262616
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.32219997505634,3.40294021076265,1.4851033210344
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,18.7547825950969,68.0069249601394,3.87967494337518
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,22.7639957224802,102.005103657701,4.56918201882268
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,20.7037198972498,63.5744591216381,4.81465756633177
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,10.7519623128556,36.0680503033003,3.53490353559785
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,13.1626761620509,48.6531868319867,3.76257056922288
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,11.951006651756,32.5246639691417,3.98575278555916
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.67630634489966,3.77948162611359,1.81212344772873
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.27011420358977,3.21888410175215,1.50519019608152
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",1990,2.47339723174083,3.46554597245017,1.6835374041004
+3,"YLDs (Years Lived with Disability)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.53275185885309,5.30280978484178,2.18846053364367
+3,"YLDs (Years Lived with Disability)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.8301928564127,5.75535723627856,2.29808687383208
+3,"YLDs (Years Lived with Disability)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.67644032180559,5.49601309224291,2.24536426798119
+3,"YLDs (Years Lived with Disability)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.95925968669148,3.05772222420021,1.1847483670622
+3,"YLDs (Years Lived with Disability)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.25519667895362,3.53148209242746,1.35870291932201
+3,"YLDs (Years Lived with Disability)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.1078152187361,3.19883107797976,1.29156792407835
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.07663963076398,4.61081103800316,1.87544900511313
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.64124206356904,3.98475268627348,1.63751324161747
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.86228301924243,4.27068621655935,1.77411583967155
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.45644788910059,3.65155304066473,1.51205937122374
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.94686992461635,2.93270731582528,1.17737343371967
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.20150370668391,3.25798298816844,1.34287399074035
+3,"YLDs (Years Lived with Disability)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.76869928857918,10.228755325896,3.99423086833597
+3,"YLDs (Years Lived with Disability)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,5.30881150574887,8.2153987900518,3.12263085339357
+3,"YLDs (Years Lived with Disability)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.05836109785739,9.09355262069214,3.63538058359625
+3,"YLDs (Years Lived with Disability)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.83159686454286,10.1220424348804,4.20158991038696
+3,"YLDs (Years Lived with Disability)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.09476911996804,9.03286098990077,3.79639933298039
+3,"YLDs (Years Lived with Disability)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.47461639801165,9.59405577804394,4.01773858578415
+3,"YLDs (Years Lived with Disability)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.32011056736087,1.95434555875968,0.826888632174963
+3,"YLDs (Years Lived with Disability)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.15079353488691,1.71289949566928,0.707416427765916
+3,"YLDs (Years Lived with Disability)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.23462702473026,1.82141664888222,0.761978819102767
+3,"YLDs (Years Lived with Disability)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.17501752593433,4.70728212058998,1.90053118282444
+3,"YLDs (Years Lived with Disability)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.07254536373396,4.59190515686522,1.939675852867
+3,"YLDs (Years Lived with Disability)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.12402447526757,4.67284989193752,1.89618934943455
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.02270513926556,4.49212940086908,1.8714130835936
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.6576376380955,3.95413630341951,1.63361199777162
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.84415028318668,4.24476854712844,1.76648475583497
+6,"Incidence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.82728799759491,2.39039239060554,1.36870466315541
+6,"Incidence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.43001006242086,1.90475374535978,1.02514172631397
+6,"Incidence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.63342401222435,2.14474094522335,1.20282802893282
+6,"Incidence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.13983047982461,6.65301883618686,2.50914970027656
+6,"Incidence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.12610034247853,6.51803911403538,2.55183115259127
+6,"Incidence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.13313746710973,6.56128640019872,2.53765861245075
+6,"Incidence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.27129002920953,5.1023839152138,2.05382257075444
+6,"Incidence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.97018743208051,4.99061517659238,1.76865662401741
+6,"Incidence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.12447728572469,5.0346366813555,1.90988163384529
+6,"Incidence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.29608703964613,3.45207418036252,1.52512151061934
+6,"Incidence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.87542540910344,2.83396297169269,1.27498651596314
+6,"Incidence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.0921639489169,3.13899795309499,1.40335774540355
+6,"Incidence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.9040722696215,6.01299790688281,2.74614061275401
+6,"Incidence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.67854815073416,7.51908137542328,2.65267923029395
+6,"Incidence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.28069221088899,6.60771030390605,2.74872495482571
+6,"Incidence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.40970451273252,3.73931986149893,3.11979431879463
+6,"Incidence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.63186538813809,3.97407551530388,3.30580660611694
+6,"Incidence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.51770719705508,3.85879060286712,3.24832103278962
+6,"Incidence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.95285486524712,2.50406391016007,1.54827200462427
+6,"Incidence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.00836803312618,2.55917651949875,1.62138251226765
+6,"Incidence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.97796136808212,2.53745084311563,1.5882506744627
+6,"Incidence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.58309662821883,7.11160255334543,3.07682994197039
+6,"Incidence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.29615478625674,6.78458875639702,2.80060041212463
+6,"Incidence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.44615612890704,6.95292905154871,2.94979666161021
+6,"Incidence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.33264269228215,3.58006569179491,1.46414677806664
+6,"Incidence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.11314092572309,3.23655481041319,1.28980591007056
+6,"Incidence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.2249106968592,3.42168677313962,1.36849357714731
+5,"Prevalence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,20.6201654251142,24.2343278719542,17.5137405463473
+5,"Prevalence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,18.1263889759509,21.565579502023,15.2309377643656
+5,"Prevalence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,19.3639972091606,22.8748171242639,16.4158314751737
+5,"Prevalence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,30.6806337607829,38.1198402327906,24.4030859833907
+5,"Prevalence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,35.3347830788909,44.4838695354498,27.7450840672598
+5,"Prevalence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,33.01619465883,40.2787780043021,26.5435587229565
+5,"Prevalence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,109.144403053586,135.180898423109,87.439072966193
+5,"Prevalence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,86.5644588096973,108.0700679022,68.9340105695095
+5,"Prevalence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,98.1676076313954,120.1497284646,79.0461769619378
+5,"Prevalence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,50.9574456833957,63.0341581040568,40.9699877413305
+5,"Prevalence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,49.6728538340484,60.8002759664159,40.1384705913023
+5,"Prevalence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,50.3153709494108,61.7661306250199,40.6110587946013
+5,"Prevalence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,39.6943560918171,48.6247664156088,32.2118585877082
+5,"Prevalence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,30.5076247565526,37.2256159640553,24.6650178866588
+5,"Prevalence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,35.074528725264,43.0783847457898,28.5767261922579
+5,"Prevalence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,49.333587868814,60.80246483013,39.7724084657586
+5,"Prevalence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,43.7611173856196,53.9615862201201,35.496737257331
+5,"Prevalence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,46.6085880914816,57.3974156553472,37.7465138121731
+5,"Prevalence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,56.7790884388296,68.1572861452167,46.7788962969958
+5,"Prevalence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,61.9909345255085,74.3873762437668,50.7850258506902
+5,"Prevalence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,59.3080695850087,70.907545710517,48.8134108810382
+5,"Prevalence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,111.639186115645,138.072538210432,90.6089287209589
+5,"Prevalence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,100.679676294818,124.220136039477,82.0586473377611
+5,"Prevalence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,106.327464359287,131.177911804403,86.2695018294435
+5,"Prevalence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,50.1726266635228,61.5609675067698,40.6485236595304
+5,"Prevalence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,43.3828226070426,53.2787687040427,35.0676067734508
+5,"Prevalence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,46.831708364089,57.3457592357594,38.0997045831857
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0799909670001981,0.112159071176953,0.0583269865374174
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0238893289697851,0.0295989957968343,0.0182326662298044
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0526354354348474,0.0685484157257321,0.0403167943369692
+4,"YLLs (Years of Life Lost)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,9.71836838535681,22.0170603774892,2.43648263636258
+4,"YLLs (Years of Life Lost)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.91404391295811,18.1793930709492,1.20131058835096
+4,"YLLs (Years of Life Lost)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,8.38040196696446,17.5490948634988,2.70926299829571
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,15.2744353740946,63.858224096107,0.966451885357731
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,17.3041564106712,81.4348963198694,2.33724287906801
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,16.2638544137759,50.7438349053676,2.19767229058319
+4,"YLLs (Years of Life Lost)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0913824341407211,0.157137687848549,0.052594660049732
+4,"YLLs (Years of Life Lost)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.05203641482312,0.0824289973293992,0.031805732660526
+4,"YLLs (Years of Life Lost)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0722555024380424,0.109295946159503,0.0482905457075551
+4,"YLLs (Years of Life Lost)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.18062866752397,29.209263861813,0.782392769389757
+4,"YLLs (Years of Life Lost)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.96731604275546,29.471169045607,0.9170994286643
+4,"YLLs (Years of Life Lost)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.56818995380166,19.8971226441001,1.28564760708149
+4,"YLLs (Years of Life Lost)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.124408684344708,0.160466627817317,0.0846077261259811
+4,"YLLs (Years of Life Lost)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0533705946283085,0.0641666986359923,0.0394480938687594
+4,"YLLs (Years of Life Lost)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0897801243304468,0.109252436859338,0.0647023931079326
+4,"YLLs (Years of Life Lost)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,16.5204661242141,20.1973997644931,13.4724563087948
+4,"YLLs (Years of Life Lost)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,12.4173139254826,14.7996701532937,10.47363270678
+4,"YLLs (Years of Life Lost)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,14.6628123609175,17.3582202833391,12.480691053779
+4,"YLLs (Years of Life Lost)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,5.29532955774655,8.92207079779699,3.45183031444077
+4,"YLLs (Years of Life Lost)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,5.17639318034933,7.79204158107157,3.4595803046776
+4,"YLLs (Years of Life Lost)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,5.23702038056159,8.06216648253721,3.58763239350333
+4,"YLLs (Years of Life Lost)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.871371060703564,2.35227345155968,0.224784745017838
+4,"YLLs (Years of Life Lost)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,4.68703171836002,11.3681456947441,1.47910181000488
+4,"YLLs (Years of Life Lost)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.72749317287481,6.68125956718398,0.908966913168512
+1,"Deaths",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000901790898787315,0.00126375127563068,0.000657901689126459
+1,"Deaths",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000269842318503364,0.000334367518064905,0.000206336555340052
+1,"Deaths",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000593648474136536,0.000772790988533796,0.000454945116692094
+1,"Deaths",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.172406706415854,0.720328760339167,0.0109254816826196
+1,"Deaths",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.195347536987489,0.919871825653064,0.0263586201270264
+1,"Deaths",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.183589698609571,0.573576837815375,0.0247990820739381
+1,"Deaths",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.10958092565057,0.248201922448109,0.0274915302891508
+1,"Deaths",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.077962003833376,0.204922937463466,0.0135846036566374
+1,"Deaths",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0944952919633953,0.197836218347874,0.0305504506992817
+1,"Deaths",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.00102901074988453,0.00176895672063133,0.000592493689907575
+1,"Deaths",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000586534400166408,0.000929109302121933,0.000358735922229046
+1,"Deaths",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000813913699168232,0.00123089560557979,0.000544122158994323
+1,"Deaths",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0697729152156858,0.329677820137106,0.00882029317670674
+1,"Deaths",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.078659919398881,0.332632446445655,0.0103497018133492
+1,"Deaths",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0741511939997989,0.224640095597584,0.0145043549904637
+1,"Deaths",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.00140245135132318,0.00180865452154378,0.000954208938236512
+1,"Deaths",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.000601628452916653,0.000723013695743215,0.000444611947890155
+1,"Deaths",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.00101207865354413,0.00123137343001557,0.000729472997983
+1,"Deaths",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.186394866219464,0.227875178132564,0.152033606023524
+1,"Deaths",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.14004741026811,0.166950189100354,0.118117439389005
+1,"Deaths",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.165411369333603,0.195786034242531,0.140852415022107
+1,"Deaths",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0598299120769613,0.100851154453885,0.0390135475175981
+1,"Deaths",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0585020299210065,0.088050822564083,0.0390940801904748
+1,"Deaths",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0591789237265891,0.091118355012022,0.0405377400433893
+1,"Deaths",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.00984411087083753,0.0265465636029958,0.00253991252333296
+1,"Deaths",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0528674821478998,0.128088310329675,0.0166796006806379
+1,"Deaths",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,0.0307727344130832,0.0752430801897288,0.0102653266199057
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.05064190923215,3.15347739282049,1.26943630258003
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.3072328502155,3.57518841592525,1.3999217357486
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.1800704935301,3.27413313752086,1.36279458862592
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,20.05321760153,24.1598899210872,16.5774718385507
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,16.2475063682344,19.4137278847979,13.7739143702746
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,18.3392522856675,21.6836628541546,15.5498951283055
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.61543998253546,10.2726745841007,4.65993853775696
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.32718659095056,8.87361501254548,4.49597881153554
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,6.47164727195212,9.35310119102039,4.76355467704457
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.53643859080441,3.73307026359977,1.59610342116503
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,1.97075904332419,2.95921915837987,1.20009385013353
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,2.25413890435636,3.31452883554497,1.40078928449456
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,7.64006961826322,11.5221904938575,4.7528882711126
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,9.99584265075724,17.6235992251976,5.86226219727384
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,8.78585361642921,13.6803369964145,5.66546329000839
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,18.3510746725815,67.3467214441759,3.85249712313098
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,19.9453981889861,84.1025555351279,4.79047911517747
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,19.1261371238917,53.6960612369336,4.83944211630097
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,9.20333348033736,31.8600693345957,3.57422214776542
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,9.62495339382607,31.8955407156589,3.19320043098401
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,9.41233992982012,22.5617529529506,3.82091159510202
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.29942586737714,4.82805331803585,2.03318821216111
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.12591562652737,4.64741241744851,1.99504583126156
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,3.21380426220337,4.75982883129992,2.00215911519354
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,16.5499645120872,29.6515736086456,7.70027135397664
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,13.0088123746911,24.8033291687695,7.05944967304716
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2005,14.8550176657175,25.2744490149054,7.72220490854376
+1,"Deaths",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000341127113903153,0.00054791217842209,0.000203533385963815
+1,"Deaths",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,9.40229761251019e-05,0.000133113431711549,6.33422923183752e-05
+1,"Deaths",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000220787028629961,0.000325648147083791,0.000140557439800765
+1,"Deaths",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0260931715567875,0.0396480457303966,0.0193272743601996
+1,"Deaths",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0315538736953128,0.0392135734981796,0.0237297803157426
+1,"Deaths",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0286119086226801,0.0367142785049299,0.0221207019982715
+1,"Deaths",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000600501562819233,0.00109508113495753,0.000276868307611751
+1,"Deaths",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000541582942011411,0.000978283338739315,0.00027069733582891
+1,"Deaths",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000571846057454631,0.000890750891137916,0.000336613667185285
+1,"Deaths",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0506851026953215,0.113305299874802,0.0136421892416194
+1,"Deaths",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0483627401089662,0.0979847900673361,0.00662610318106559
+1,"Deaths",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0495796833749374,0.095493763968909,0.0182849273695445
+1,"Deaths",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0960180378477941,0.47824554568132,0.0111791507842205
+1,"Deaths",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.118644459799138,0.500194120843225,0.0262960913181091
+1,"Deaths",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.107046274176276,0.318639454581248,0.0227868237704703
+1,"Deaths",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.063015881323279,0.222441867254567,0.0135531367763568
+1,"Deaths",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0637293362126041,0.233027189890656,0.0137147217071883
+1,"Deaths",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0633665731961578,0.167696983995609,0.0186828944016943
+1,"Deaths",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000245407122137749,0.000437904525623989,7.03671509672605e-05
+1,"Deaths",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,8.87751822876325e-05,0.000188972518432774,4.18344378393684e-05
+1,"Deaths",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.000168998098671578,0.0002799023400318,7.45030177027245e-05
+1,"Deaths",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0292555667795215,0.046785003543395,0.0194039086010229
+1,"Deaths",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0228774515960004,0.0374509713948445,0.0152791169853756
+1,"Deaths",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0261355520218442,0.0394673400553437,0.0184619397410214
+1,"Deaths",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.00462603216272907,0.0137130511795716,0.00123774522406576
+1,"Deaths",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0134524210923385,0.0350606894732663,0.00353347444862467
+1,"Deaths",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.00892181125606426,0.0211044197410681,0.0027245992683508
+4,"YLLs (Years of Life Lost)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.49378225116005,10.0480509962362,1.20888811483144
+4,"YLLs (Years of Life Lost)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.28849249180928,8.69292802907239,0.584876322980615
+4,"YLLs (Years of Life Lost)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.39606661479972,8.47045448913614,1.62011196478049
+4,"YLLs (Years of Life Lost)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0533260699445595,0.097261793835077,0.024573428486423
+4,"YLLs (Years of Life Lost)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0479762112998725,0.086819500082172,0.023957245480318
+4,"YLLs (Years of Life Lost)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0507241246248228,0.0790346123579923,0.029833261510588
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,8.50402206308318,42.3267417850314,0.989216326789611
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,10.5094294657724,44.3118414147641,2.3303248822336
+4,"YLLs (Years of Life Lost)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,9.48146403228426,28.2317622031233,2.01723210372856
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0302519272082021,0.0486120651683374,0.0180550279812169
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0083106442712882,0.0117851267841446,0.00559266513275962
+4,"YLLs (Years of Life Lost)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0195664951551099,0.0288663055086395,0.0124479145362933
+4,"YLLs (Years of Life Lost)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0217600325298798,0.0388498093618557,0.00622327416723905
+4,"YLLs (Years of Life Lost)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.00784930109387365,0.0167336644006796,0.0036898673891171
+4,"YLLs (Years of Life Lost)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.0149740258779038,0.0248234346275677,0.00659136554525496
+4,"YLLs (Years of Life Lost)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.31253048527666,3.51340200281218,1.71208232759557
+4,"YLLs (Years of Life Lost)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.79794098004806,3.47711510679857,2.1038884641657
+4,"YLLs (Years of Life Lost)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.53642506177677,3.25346558693283,1.96080185517647
+4,"YLLs (Years of Life Lost)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.58954804515805,4.13940358860282,1.71833446734342
+4,"YLLs (Years of Life Lost)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.02470079249459,3.31461482240779,1.35259290591527
+4,"YLLs (Years of Life Lost)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.31323891879204,3.49330483157002,1.63427075072746
+4,"YLLs (Years of Life Lost)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.57944532746313,19.6996564250559,1.19768436165942
+4,"YLLs (Years of Life Lost)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.6428032050935,20.6213364697553,1.2145240680734
+4,"YLLs (Years of Life Lost)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.61058215749343,14.8539909304263,1.65481395730605
+4,"YLLs (Years of Life Lost)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.40863935944475,1.21250825130697,0.109290957899347
+4,"YLLs (Years of Life Lost)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.19162462350333,3.1077591445176,0.312935488303674
+4,"YLLs (Years of Life Lost)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,0.789716148530957,1.86946936003029,0.240915786304602
+3,"YLDs (Years Lived with Disability)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.08538397472698,4.65412675660014,1.90759814892111
+3,"YLDs (Years Lived with Disability)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.61219634872314,5.38604033350121,2.23465427901055
+3,"YLDs (Years Lived with Disability)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.3395892477546,5.00195824020585,2.06224157448134
+3,"YLDs (Years Lived with Disability)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.92467418527865,2.93800180453405,1.14023300415938
+3,"YLDs (Years Lived with Disability)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.17605843976404,3.29827817129465,1.28280060800368
+3,"YLDs (Years Lived with Disability)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.05008765360407,3.09120815267846,1.25253508281301
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.48748310740073,3.70182015641428,1.54131171721979
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.14929230689432,3.22710777427091,1.31508141606752
+3,"YLDs (Years Lived with Disability)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.32004961660091,3.46441339469026,1.41567025840135
+3,"YLDs (Years Lived with Disability)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.85195049292571,4.2152772429525,1.72177953933514
+3,"YLDs (Years Lived with Disability)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.75010946950961,5.64663595770109,2.32474085225065
+3,"YLDs (Years Lived with Disability)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.29656108128938,4.86454527404153,2.02816202547985
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.20324449848387,4.78401390803786,1.96587143709524
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.83992462298493,4.25221664255522,1.74472261346943
+3,"YLDs (Years Lived with Disability)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.02306958637937,4.49267687405313,1.87163472078034
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.12454218361385,4.66729291862078,1.96314011968331
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.74588838367657,4.08991132776037,1.69908529351587
+3,"YLDs (Years Lived with Disability)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.92650782476892,4.34685913905063,1.82712948314491
+3,"YLDs (Years Lived with Disability)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.58087638781342,10.0609638212357,3.91749436635993
+3,"YLDs (Years Lived with Disability)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.11234413808317,7.91373265344982,3.04012897460745
+3,"YLDs (Years Lived with Disability)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.87863894420956,8.84524525892086,3.54520146485197
+3,"YLDs (Years Lived with Disability)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.91764200421088,10.2802949184353,4.26257882490362
+3,"YLDs (Years Lived with Disability)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.31574560949664,9.55051377863041,3.92783916094843
+3,"YLDs (Years Lived with Disability)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.62357356573945,9.88245375752421,4.10486293730379
+6,"Incidence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.16721102424489,5.49999736258029,1.642090990769
+6,"Incidence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.5445423698548,6.3885058915397,1.95586289863436
+6,"Incidence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.35074985785586,5.76947731859416,1.82581340879418
+6,"Incidence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.2787520632591,3.46031853581829,1.48403574864541
+6,"Incidence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.3838085735083,3.57589716182648,1.62585428541499
+6,"Incidence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.32720666772666,3.53230519861188,1.5509412991199
+6,"Incidence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.39682360035534,3.72334751429283,1.48284059532167
+6,"Incidence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.21994920232005,3.4431165164793,1.32961795639523
+6,"Incidence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.3101522720527,3.55401413603451,1.40643163374544
+6,"Incidence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.76306598908431,5.72111922564442,2.61121979565364
+6,"Incidence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.88055605865458,6.25724266577752,2.31649388826112
+6,"Incidence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.82023718696505,5.90828350707258,2.50492040697906
+6,"Incidence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.56423918671365,7.29584566466789,3.04846096882503
+6,"Incidence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.61047385206068,7.43974937424995,2.92401517588275
+6,"Incidence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.58627296771829,7.24046406619655,2.99059144680623
+6,"Incidence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.2604692325129,5.39949026885401,1.75951885009876
+6,"Incidence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.38813031659233,5.46263862580607,1.71460726577253
+6,"Incidence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.32274518751274,5.25270074325538,1.72767250220362
+6,"Incidence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.26170304129469,5.59810000116179,1.76190822360684
+6,"Incidence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.02837361992968,5.39626107197455,1.58261722861501
+6,"Incidence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.14807588109022,5.52627935605361,1.688026426999
+6,"Incidence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.96544425902995,2.66686965972942,1.39235651418764
+6,"Incidence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.60574602686937,2.11081567086229,1.14466200570481
+6,"Incidence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.78972400019641,2.38074522253119,1.27818389524096
+5,"Prevalence",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,22.4004891076572,26.6597373203642,18.6145478165216
+5,"Prevalence",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,18.4988204621489,21.976164463737,15.3769074648836
+5,"Prevalence",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,20.4280684865297,24.1839383753767,17.0085882206112
+5,"Prevalence",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,30.0742632015293,37.8417191446823,23.8434355811555
+5,"Prevalence",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,34.0089592142064,42.5364528911233,26.9692059798353
+5,"Prevalence",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,32.0371764506782,40.0386594728294,25.644847045358
+5,"Prevalence",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,40.2470925966392,49.7367325960678,32.4459949448683
+5,"Prevalence",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,34.1644387837349,42.0598747718511,27.3372593381252
+5,"Prevalence",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,37.217509723817,45.9494619314489,29.7584866016075
+5,"Prevalence",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,45.8834014769845,56.6379936326859,36.6777078918951
+5,"Prevalence",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,60.8211890566482,75.0826689937634,48.8936672682757
+5,"Prevalence",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,53.2849688952988,65.5475890657974,42.9323921701911
+5,"Prevalence",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,106.28341249002,131.251027001433,84.0920080243832
+5,"Prevalence",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,83.4440097502654,104.669872772678,65.6735417501566
+5,"Prevalence",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,95.3732407185953,117.920519908232,76.383537827458
+5,"Prevalence",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,50.9473131774839,62.6040620578064,41.0726815913768
+5,"Prevalence",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,45.1493574107656,55.625502798549,36.3753042642227
+5,"Prevalence",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,47.9186647370631,59.0928413083894,38.7031585743585
+3,"YLDs (Years Lived with Disability)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.42926265708451,2.12477440112457,0.892885300105316
+3,"YLDs (Years Lived with Disability)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.1736521264757,1.72915739250797,0.72961738577214
+3,"YLDs (Years Lived with Disability)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.29983845722476,1.91400867017866,0.810250332734619
+6,"Incidence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.41760707868791,3.66817133786923,1.55973723800022
+6,"Incidence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.25826294329793,3.46733108286308,1.41203566888029
+6,"Incidence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.34010012283889,3.53848697210051,1.48941065547769
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.87371021744493,4.2434321777354,1.73444338035389
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.75795836559166,5.65270093986153,2.32862304120755
+2,"DALYs (Disability-Adjusted Life Years)",67,"Japan",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.3115347511387,4.88128019787014,2.0364341897842
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.39791412678216,7.25788805099406,3.95822881484434
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.41013693865399,8.39404922646956,4.92975630981605
+2,"DALYs (Disability-Adjusted Life Years)",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,5.87601394885574,7.6781786792275,4.45706893629731
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,1.9780000473584,2.99830481263851,1.19768548367419
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.2240344160496,3.36069436942913,1.33438071727779
+2,"DALYs (Disability-Adjusted Life Years)",71,"Australia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.10081155681943,3.15039552892685,1.29587070417375
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.51773476596076,3.72735232609364,1.57092351213684
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.15760271904204,3.23500996565946,1.32271249404793
+2,"DALYs (Disability-Adjusted Life Years)",95,"United Kingdom",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,2.33961586119066,3.48286973273788,1.43753649533496
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,4.01881054788219,5.60896419558021,2.96862255345724
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.19835279221586,4.51397698480534,2.38149457632531
+2,"DALYs (Disability-Adjusted Life Years)",135,"Brazil",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,3.61307723563425,4.911640735637,2.75767538652795
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.98951503652352,10.4834920146383,4.2039180306808
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.30396820945333,9.60010985655623,3.89093895633494
+2,"DALYs (Disability-Adjusted Life Years)",141,"Egypt",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,6.6683544578475,9.93042574530233,4.24041174421164
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,11.4114235082656,17.5748267219433,6.42367152507386
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,10.6042374192054,16.2530169939515,6.59301111380291
+2,"DALYs (Disability-Adjusted Life Years)",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,11.0196394651932,16.3594204237827,6.96889101171601
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,11.7072662156167,45.8444844987666,3.94178856487343
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,13.3493537820454,47.1786281951058,4.87206805443154
+2,"DALYs (Disability-Adjusted Life Years)",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,12.5045332921721,31.0820030054246,4.81889696501602
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,8.70398717362643,22.7800546044587,4.1555189010317
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,8.38869129221413,23.6072198985592,3.62980910140746
+2,"DALYs (Disability-Adjusted Life Years)",214,"Nigeria",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,8.53708966619951,17.8928427999924,4.30664043605951
+5,"Prevalence",6,"China",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,49.666572465037,60.9833316977764,40.6296843614355
+5,"Prevalence",6,"China",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,58.5173434011385,71.2376761702759,47.9860843060055
+5,"Prevalence",6,"China",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,53.9543835693482,65.8667633320423,44.1246537793428
+5,"Prevalence",179,"Ethiopia",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,52.1624473519454,64.5470608232315,42.1280939581348
+5,"Prevalence",179,"Ethiopia",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,46.3956943824564,57.2214484245052,37.3012548441738
+5,"Prevalence",179,"Ethiopia",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,49.3057626304789,60.8769184085118,39.8712563134337
+5,"Prevalence",163,"India",1,"Male",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,113.095596630408,140.045126760153,91.8074229049357
+5,"Prevalence",163,"India",2,"Female",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,104.241360491576,129.37166219164,83.8649587575168
+5,"Prevalence",163,"India",3,"Both",27,"Age-standardized",644,"Orofacial clefts",3,"Rate",2019,108.768565193244,134.536459731751,88.0061972935318
