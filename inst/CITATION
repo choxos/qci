@@ -1,0 +1,39 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "qci: Quality of Care Index from Global Burden of Disease Data",
+  author   = person("Ahmad", "Sofi-Mahmudi",
+                    role = c("aut", "cre"),
+                    comment = c(ORCID = "0000-0002-2460-2394")),
+  year     = "2026",
+  note     = paste("R package version", meta$Version),
+  url      = "https://choxos.github.io/qci/"
+)
+
+bibentry(
+  bibtype  = "Misc",
+  title    = "Quality of Care Index (QCI)",
+  author   = c(
+    person("Esmaeil", "Mohammadi"),
+    person("Erfan", "Ghasemi"),
+    person("Sahar", "Saeedi Moghaddam"),
+    person("Moein", "Yoosefi"),
+    person("Ali", "Ghanbari"),
+    person("Naser", "Ahmadi"),
+    person("Masoud", "Masinaei"),
+    person("Shahin", "Roshani"),
+    person("Narges", "Ebrahimi"),
+    person("Mahtab", "Rouhifard Khalilabad"),
+    person("Maryam", "Nasserinejad"),
+    person("Sina", "Azadnajafabad"),
+    person("Bahram", "Mohajer"),
+    person("Farnam", "Mohebi"),
+    person("Negar", "Rezaei"),
+    person("Ali", "Mokdad"),
+    person("Bagher", "Larijani"),
+    person("Farshad", "Farzadfar")
+  ),
+  year     = "2020",
+  publisher = "protocols.io",
+  doi      = "10.17504/protocols.io.bprjmm4n",
+  url      = "https://dx.doi.org/10.17504/protocols.io.bprjmm4n"
+)

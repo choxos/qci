@@ -1,12 +1,10 @@
 Package: qci
 Title: Quality of Care Index from Global Burden of Disease Data
 Version: 0.1.0
-Authors@R: c(
+Authors@R:
     person("Ahmad", "Sofi-Mahmudi", email = "ahmad.sofimahmudi@gmail.com",
-           role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2460-2394")),
-    person("Erfan", "Shamsoddin", role = "aut"),
-    person("Marcos Roberto", "Tovani-Palone", role = "aut")
-    )
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-2460-2394"))
 Description: Calculates the Quality of Care Index (QCI) from Global Burden
     of Disease (GBD) study data. QCI is a composite metric derived via
     Principal Component Analysis from four epidemiological ratios:

@@ -6,6 +6,8 @@
 \alias{qci-package}
 \title{qci: Quality of Care Index from Global Burden of Disease Data}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Calculates the Quality of Care Index (QCI) from Global Burden of Disease (GBD) study data. QCI is a composite metric derived via Principal Component Analysis from four epidemiological ratios: Mortality-to-Incidence (MIR), YLL-to-YLD, DALY-to-Prevalence, and Prevalence-to-Incidence. Provides a complete pipeline from raw GBD CSV exports to normalized country-level scores, gender disparity analysis, and publication-ready visualizations including choropleth maps.
 }
 \seealso{
@@ -17,13 +19,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Ahmad Sofi-Mahmudi \email{ahmad.sofimahmudi@gmail.com} (\href{https://orcid.org/0000-0002-2460-2394}{ORCID})
-
-Authors:
-\itemize{
-  \item Erfan Shamsoddin
-  \item Marcos Roberto Tovani-Palone
-}
+\strong{Maintainer}: Ahmad Sofi-Mahmudi \email{ahmad.sofimahmudi@gmail.com} (\href{https://orcid.org/0000-0002-2460-2394}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}

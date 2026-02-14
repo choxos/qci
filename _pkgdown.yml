@@ -2,21 +2,43 @@ url: https://choxos.github.io/qci/
 
 template:
   bootstrap: 5
-  bootswatch: cosmo
+  math-rendering: katex
+  light-switch: true
   bslib:
-    primary: "#1a9850"
+    base_font: {google: "Source Sans Pro"}
+    heading_font: {google: "Source Sans Pro"}
+
+development:
+  mode: auto
 
 home:
-  title: "qci - Quality of Care Index for GBD Studies"
+  title: qci - Quality of Care Index for GBD Studies
+  description: >
+    R package for calculating the Quality of Care Index (QCI) from Global Burden
+    of Disease study data. QCI is a composite country-level metric derived via
+    Principal Component Analysis from four epidemiological ratios.
+
+authors:
+  Ahmad Sofi-Mahmudi:
+    href: https://www.linkedin.com/in/asofimahmudi/
 
 navbar:
   structure:
-    left: [intro, reference, articles]
-    right: [search, github]
+    left:  [home, intro, reference, articles, news]
+    right: [search, github, linkedin, twitter]
   components:
     github:
       icon: fa-github
       href: https://github.com/choxos/qci
+      aria-label: GitHub
+    linkedin:
+      icon: fab fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/asofimahmudi/
+      aria-label: LinkedIn
+    twitter:
+      icon: fab fa-twitter fa-lg
+      href: http://x.com/ASofiMahmudi/
+      aria-label: Twitter
 
 reference:
   - title: "Pipeline"
@@ -55,3 +77,11 @@ articles:
   - title: "Getting Started"
     contents:
       - qci-introduction
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with
+  components:
+    developed_by: "Developed by Ahmad Sofi-Mahmudi"
+    built_with: "Built with [pkgdown](https://pkgdown.r-lib.org/)"

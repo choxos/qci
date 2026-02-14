@@ -7,3 +7,4 @@ inst/doc
 docs/
 previous_codes/data/*.csv
 previous_codes/data/*.dta
+Rplots.pdf

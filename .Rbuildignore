@@ -9,3 +9,5 @@
 ^pkgdown$
 ^previous_codes$
 ^\.claude$
+^Rplots\.pdf$
+^man/figures/generate_logo\.R$
