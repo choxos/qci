@@ -1,7 +1,7 @@
 # Plot QCI trends over time
 
-Creates line plots of QCI over years, optionally stratified by sex
-and/or faceted by location.
+Creates line plots of QCI over years, stratified by sex. When multiple
+locations are present, automatically facets by location for readability.
 
 ## Usage
 
@@ -44,7 +44,9 @@ plot_qci_trend(
 
 - facet_by:
 
-  Character. Column to facet by. Default `NULL`.
+  Character. Column to facet by. When `NULL` (default), auto-facets by
+  `location_name` if more than one location is present. Set to `FALSE`
+  to disable auto-faceting.
 
 - free_y:
 
