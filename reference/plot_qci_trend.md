@@ -68,6 +68,5 @@ result <- qci_pipeline(sample_gbd)
 #> ℹ PCA done for "Male / Age-standardized": 73.2% variance explained (n=27).
 #> ℹ Creating long format output...
 #> ✔ QCI pipeline complete.
-plot_qci_trend(result$wide, locations = "Global")
-#> Error in plot_qci_trend(result$wide, locations = "Global"): No data remaining after filtering.
+plot_qci_trend(result$wide)
 ```
