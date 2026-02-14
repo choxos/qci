@@ -28,7 +28,9 @@ Default \code{c("Male", "Female", "Both")}.}
 \item{colors}{Named character vector.
 Default \code{c(Male = "skyblue4", Female = "firebrick", Both = "grey30")}.}
 
-\item{facet_by}{Character. Column to facet by. Default \code{NULL}.}
+\item{facet_by}{Character. Column to facet by. When \code{NULL} (default),
+auto-facets by \code{location_name} if more than one location is present.
+Set to \code{FALSE} to disable auto-faceting.}
 
 \item{free_y}{Logical. Free y-axis scales in facets. Default \code{FALSE}.}
 }
@@ -36,8 +38,8 @@ Default \code{c(Male = "skyblue4", Female = "firebrick", Both = "grey30")}.}
 A ggplot2 object.
 }
 \description{
-Creates line plots of QCI over years, optionally stratified by sex
-and/or faceted by location.
+Creates line plots of QCI over years, stratified by sex. When multiple
+locations are present, automatically facets by location for readability.
 }
 \examples{
 data(sample_gbd)

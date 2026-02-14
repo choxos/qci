@@ -1,7 +1,7 @@
 #' Plot QCI trends over time
 #'
-#' Creates line plots of QCI over years, optionally stratified by sex
-#' and/or faceted by location.
+#' Creates line plots of QCI over years, stratified by sex. When multiple
+#' locations are present, automatically facets by location for readability.
 #'
 #' @param data A data.frame with columns: `year`, `qci_score`, `sex_name`,
 #'   `location_name`, `age_name`.
@@ -11,7 +11,9 @@
 #' @param age Character. Default `"Age-standardized"`.
 #' @param colors Named character vector.
 #'   Default `c(Male = "skyblue4", Female = "firebrick", Both = "grey30")`.
-#' @param facet_by Character. Column to facet by. Default `NULL`.
+#' @param facet_by Character. Column to facet by. When `NULL` (default),
+#'   auto-facets by `location_name` if more than one location is present.
+#'   Set to `FALSE` to disable auto-faceting.
 #' @param free_y Logical. Free y-axis scales in facets. Default `FALSE`.
 #' @return A ggplot2 object.
 #' @export
@@ -51,6 +53,12 @@ plot_qci_trend <- function(data,
     cli_abort("No data remaining after filtering.")
   }
 
+  # Auto-facet by location when multiple locations present
+  n_locations <- length(unique(dt$location_name))
+  if (is.null(facet_by) && n_locations > 1) {
+    facet_by <- "location_name"
+  }
+
   p <- ggplot2::ggplot(dt, ggplot2::aes(x = .data$year, y = .data[[score_col]],
                                           group = interaction(.data$location_name,
                                                               .data$sex_name),
@@ -61,7 +69,7 @@ plot_qci_trend <- function(data,
     ggplot2::labs(x = "Year", y = "Quality of Care Index (QCI)") +
     ggplot2::theme_minimal()
 
-  if (!is.null(facet_by) && facet_by %in% names(dt)) {
+  if (!isFALSE(facet_by) && !is.null(facet_by) && facet_by %in% names(dt)) {
     scales_arg <- if (free_y) "free_y" else "fixed"
     p <- p + ggplot2::facet_wrap(stats::as.formula(paste("~", facet_by)),
                                   scales = scales_arg)
