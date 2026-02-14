@@ -52,7 +52,8 @@ plot_qci_trend <- function(data,
   }
 
   p <- ggplot2::ggplot(dt, ggplot2::aes(x = .data$year, y = .data[[score_col]],
-                                          group = .data$sex_name,
+                                          group = interaction(.data$location_name,
+                                                              .data$sex_name),
                                           color = .data$sex_name)) +
     ggplot2::geom_line(linewidth = 1, alpha = 0.8) +
     ggplot2::geom_point(size = 2) +
