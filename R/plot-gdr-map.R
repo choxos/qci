@@ -47,8 +47,12 @@ plot_gdr_map <- function(data,
   # Create bins
   dt$gdr_bin <- cut(dt$gdr, breaks = breaks, labels = labels, include.lowest = TRUE)
 
-  # Get world map
+  # Get world map (requires sf and rnaturalearthdata)
+  if (!requireNamespace("rnaturalearthdata", quietly = TRUE)) {
+    cli_abort("Package {.pkg rnaturalearthdata} is required for map plots.")
+  }
   world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+  world <- sf::st_as_sf(world)
   world$iso <- world$iso_a3
 
   # Merge

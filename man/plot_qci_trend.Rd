@@ -42,5 +42,5 @@ and/or faceted by location.
 \examples{
 data(sample_gbd)
 result <- qci_pipeline(sample_gbd)
-plot_qci_trend(result$wide, locations = "Global")
+plot_qci_trend(result$wide)
 }

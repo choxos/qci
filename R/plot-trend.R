@@ -18,7 +18,7 @@
 #' @examples
 #' data(sample_gbd)
 #' result <- qci_pipeline(sample_gbd)
-#' plot_qci_trend(result$wide, locations = "Global")
+#' plot_qci_trend(result$wide)
 plot_qci_trend <- function(data,
                            locations = NULL,
                            sex = c("Male", "Female", "Both"),

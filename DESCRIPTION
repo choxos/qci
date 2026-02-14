@@ -29,11 +29,10 @@ Imports:
     tidyr,
     sf,
     rnaturalearth,
-    rnaturalearthdata,
-    scales,
     cli,
     rlang
 Suggests:
+    rnaturalearthdata,
     testthat (>= 3.0.0),
     knitr,
     rmarkdown,
