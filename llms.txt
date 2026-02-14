@@ -1,4 +1,4 @@
-# qci ![](reference/figures/logo.png)
+# qci
 
 **Quality of Care Index for Global Burden of Disease Studies**
 
@@ -25,6 +25,10 @@ These ratios are combined via PCA, normalized to 0–100, and inverted so
 that **higher scores = better quality of care**. The analysis is
 stratified by sex and age group, and preserves GBD uncertainty intervals
 throughout.
+
+For full methodology details, see the [QCI
+Protocol](https://dx.doi.org/10.17504/protocols.io.bprjmm4n) (Mohammadi
+et al., 2020).
 
 ## Installation
 
@@ -160,9 +164,23 @@ diseases, infectious diseases).
 
 If you use this package in your research, please cite:
 
-> Sofi-Mahmudi A, Shamsoddin E, Tovani-Palone MR. Quality of Care Index
-> for Global Burden of Disease Studies. R package version 0.1.0.
-> <https://github.com/choxos/qci>
+> Sofi-Mahmudi A (2026). *qci: Quality of Care Index from Global Burden
+> of Disease Data*. R package version 0.1.0.
+> <https://choxos.github.io/qci/>
+
+and the QCI protocol:
+
+> Mohammadi E, Ghasemi E, Saeedi Moghaddam S, Yoosefi M, Ghanbari A,
+> Ahmadi N, Masinaei M, Roshani S, Ebrahimi N, Rouhifard Khalilabad M,
+> Nasserinejad M, Azadnajafabad S, Mohajer B, Mohebi F, Rezaei N, Mokdad
+> A, Larijani B, Farzadfar F (2020). “Quality of Care Index (QCI).”
+> *protocols.io*. doi:
+> [10.17504/protocols.io.bprjmm4n](https://dx.doi.org/10.17504/protocols.io.bprjmm4n)
+
+## Author
+
+Ahmad Sofi-Mahmudi
+([![ORCID](https://img.shields.io/badge/ORCID-0000--0002--2460--2394-green.svg)](https://orcid.org/0000-0002-2460-2394))
 
 ## License
 

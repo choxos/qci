@@ -19,10 +19,4 @@ Useful links:
 ## Author
 
 **Maintainer**: Ahmad Sofi-Mahmudi <ahmad.sofimahmudi@gmail.com>
-([ORCID](https://orcid.org/0000-0002-2460-2394))
-
-Authors:
-
-- Erfan Shamsoddin
-
-- Marcos Roberto Tovani-Palone
+([ORCID](https://orcid.org/0000-0002-2460-2394)) \[copyright holder\]
